@@ -2,13 +2,13 @@
 
 **Design Verification Engineer | MS Computer Engineering, Syracuse University**
 
-Built four independent UVM verification environments from scratch — AXI4 slave IP, RV32I pipelined processor, asynchronous CDC FIFO, and UART 16550 controller. Developed constrained-random testbenches, reference-model scoreboards, SVA assertion suites, and Python multi-seed regression infrastructure. Debugged 37+ RTL and testbench defects through waveform root-cause analysis across all projects.
+Built four independent UVM verification environments from scratch — AXI4 slave IP, RV32I pipelined processor, asynchronous CDC FIFO, and UART 16550 controller. Developed constrained-random testbenches, reference-model scoreboards, SVA assertion suites, and Python multi-seed regression infrastructure. Debugged 50+ RTL and testbench defects through waveform root-cause analysis across all projects.
 
 ---
 
 ### Featured Projects
 
-**[AXI4 Slave UVM Verification](https://github.com/JaishyamReddivari/AXI_RAM_Verification)** — Black-box verification of AXI4 slave RAM against ARM AMBA spec. Byte-addressable associative-array scoreboard, 14 SVA assertions, 22 directed + constrained-random tests. **97.2% functional coverage, 0 mismatches across 500 seeds.**
+**[AXI4 Slave UVM Verification](https://github.com/JaishyamReddivari/AXI_RAM_Verification)** — Black-box verification of AXI4 slave RAM against ARM AMBA spec. Byte-addressable associative-array scoreboard, 14 SVA assertions, 22 directed + constrained-random tests. **97.5% functional coverage, 0 mismatches across 2500 seeds.**
 
 **[RISC-V 5-Stage Pipelined Processor](https://github.com/JaishyamReddivari/RISC-V-Design-UVM-Verification)** — Designed RV32I core with forwarding and hazard detection, then verified it with a full UVM environment: dual agents, ISA reference-model scoreboard, pipeline monitors. 28 SVA assertions, 19 covergroups, coverage driven from 52% → 96%. Found a register-file bypass bug causing stale reads.
 
