@@ -14,7 +14,7 @@ Built four independent UVM verification environments from scratch — AXI4 slave
 
 **[Asynchronous CDC FIFO](https://github.com/JaishyamReddivari/CDC_FIFO)** — 16-deep async FIFO with Gray-coded pointers, dual-clock domains, and 2-FF synchronizers. UVM environment with dual-clock monitors and FIFO-queue reference scoreboard. 500-transaction regression at asymmetric clock ratios, 0 mismatches.
 
-**[UART 16550 Controller](https://github.com/JaishyamReddivari/UART-16550-Controller)** — RTL design based on PC16550D spec with TX/RX state machines, programmable baud-rate generator, and FIFO buffering. UVM environment with serial loopback and mailbox scoreboard. Resolved 17 RTL bugs and 13 testbench defects.
+**[UART 16550 Controller](https://github.com/JaishyamReddivari/UART-16550-Controller)** — RTL design based on PC16550D spec with TX/RX state machines, programmable baud-rate generator, and FIFO buffering. UVM environment with serial loopback, dual-path monitors, and mailbox scoreboard verifying 500 constrained-random frames with 0 errors. UVM Register Abstraction Layer(RAL) model with dual address maps for DLAB-based aliasing, custom adapter/predictor, and RAL-aware driver with read-back verification. Resolved 17 RTL bugs and 16 testbench and RAL issues.
 
 ---
 
