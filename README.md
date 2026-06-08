@@ -8,9 +8,9 @@ Design Verification engineer building production-style UVM environments from scr
 
 ### Featured Projects
 
-**[8×8 INT8 Systolic-Array Accelerator — UVM Verification](https://github.com/JaishyamReddivari/systolic_array_dv)** — Full UVM verification of a weight-stationary INT8 matrix-multiply accelerator (the compute core of ML accelerators), closed on an open-source Verilator + UVM flow. Constrained-random AXI4-Stream/AXI4-Lite stimulus, a self-checking scoreboard cross-validated against three independent reference models (NumPy, cycle-accurate, C++), and a hand-built functional-coverage model. **100% functional coverage, 97.1% line coverage, 0 failures across 1,500 regression runs.**
+**[8×8 INT8 Systolic-Array Accelerator — UVM Verification](https://github.com/JaishyamReddivari/systolic_array_dv)** — Full UVM verification of a weight-stationary INT8 matrix-multiply accelerator (the compute core of ML accelerators), closed on an open-source Verilator + UVM flow. Constrained-random AXI4-Stream/AXI4-Lite stimulus, a self-checking scoreboard cross-validated against three independent reference models (NumPy, cycle-accurate, C++), and a hand-built functional-coverage model. **100% functional coverage, 97.1% line coverage, 0 failures across 500 regression runs.**
 
-**[AXI4 Slave UVM Verification](https://github.com/JaishyamReddivari/AXI_RAM_Verification)** — Black-box verification of AXI4 slave RAM against ARM AMBA spec. Byte-addressable associative-array scoreboard, 14 SVA assertions, 22 directed + constrained-random tests. **97.5% functional coverage, 0 mismatches across 2500 seeds.**
+**[AXI4 Slave UVM Verification](https://github.com/JaishyamReddivari/AXI_RAM_Verification)** — Black-box verification of AXI4 slave RAM against ARM AMBA spec. Byte-addressable associative-array scoreboard, 14 SVA assertions, 22 directed + constrained-random tests. **97.5% functional coverage, 0 mismatches.**
 
 **[RISC-V 5-Stage Pipelined Processor](https://github.com/JaishyamReddivari/RISC-V-Design-UVM-Verification)** — Designed RV32I core with forwarding and hazard detection, then verified it with a full UVM environment: dual agents, ISA reference-model scoreboard, pipeline monitors. **28 SVA assertions, 19 covergroups, coverage driven from 52% → 96%.** Found a register-file bypass bug causing stale reads.
 
